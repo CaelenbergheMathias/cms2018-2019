@@ -1,0 +1,157 @@
+#navbar, .path-contact label, footer, .region-sidebar-second, .region-sidebar-first {
+    background-color: rgba(255, 255, 240, 0.5);
+}
+
+.page-node-type-page .content, .page-header
+{
+    padding: 0.9rem;
+}
+
+header .active-trail, .path-frontpage .first {
+    background-color: rgba(255, 255, 240, 1);
+}
+
+h1 {
+    color: brown;
+    background-color: rgba(255, 255, 240, 0.5);
+}
+
+body {
+    background-image: url("../images/paving-stones-778789_1920.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    font-size: 20px;
+}
+
+.tentoonstelling, .beeld, .article, #block-marcheetuwelkom {
+    background-image: url("../images/background-box.jpg");
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 2px;
+
+}
+
+#block-marcheetuwelkom img {
+    max-width: 40%;
+}
+
+.block-title {
+    color: brown;
+    font-weight: bolder;
+}
+
+a {
+    color: #dc143c;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
+    color: brown;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ED2939;
+}
+
+.field--label {
+    margin-bottom: 0.5rem;
+    font-size: 24px;
+    color: brown;
+}
+
+.field--item {
+    color: firebrick;
+}
+
+.field {
+    padding-bottom: 1.5rem
+}
+
+.btn-primary {
+    background-color: gray;
+    border-color: darkgray;
+}
+
+.logo {
+    display: none;
+}
+
+@media only screen and (min-width: 960px) {
+    .path-beelden .view-beelden .view-content {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .path-beelden .beelden-row {
+        margin-right: 1rem;
+        width: 33%;
+    }
+}
+
+.path-frontpage .beeld, .path-frontpage .tentoonstelling, .article {
+    background-image: url("../images/marble-2362265.jpg");
+    background-size: cover;
+}
+
+.path-frontpage #block-welkom {
+    background-image: url("../images/marble-1006628.jpg");
+    background-size: cover;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+.path-frontpage h1 {
+    display: none;
+}
+
+.page-node-type-page {
+    background-image: url("../images/tower-of-pisa-293908_1920.jpg");
+    background-size: cover;
+
+}
+
+.page-node-type-page .content {
+    background-color: rgba(255, 255, 240, 0.5);
+}
+
+.page-node-type-page .content p {
+    color: brown;
+    font-weight: bold;
+}
+
+.path-beelden {
+    background-image: url("../images/florence-2428745_1280.jpg");
+    background-size: cover;
+}
+
+.path-beelden .beeld {
+    background-image: url("../images/rock-2929208.jpg");
+    background-size: contain;
+}
+
+.path-evenementen {
+    background-image: url("../images/gallery-561482.jpg");
+    background-size: cover;
+}
+
+.path-evenementen .tentoonstelling {
+    background-image: url("../images/rock-2929209.jpg");
+    background-size: contain;
+}
+
+.path-contact {
+    background-image: url("../images/quarry-186349.jpg");
+    background-size: cover;
+}
+
+p{
+    overflow: auto;
+}
+
+img {
+    max-width: 90%;
+}
