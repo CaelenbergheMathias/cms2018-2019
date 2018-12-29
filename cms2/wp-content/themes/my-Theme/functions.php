@@ -94,7 +94,7 @@ function evenement_admin_init(){
                 <label>Naam: </label><br><input type="text" name="evenement_naam" value="<?php echo $naam;?>">
             </p>
             <p>
-                <label>Plaats: </label><br><input type="text" name="evenement_pub" value="<?php echo $plaats;?>">
+                <label>Plaats: </label><br><input type="text" name="evenement_plaats" value="<?php echo $plaats;?>">
             </p>
             <p>
                 <label>Datum: </label><br><input type="date" name="evenement_date" value="<?php echo $date;?>">

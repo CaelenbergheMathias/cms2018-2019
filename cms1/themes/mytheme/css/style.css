@@ -2,6 +2,8 @@
     background-color: rgba(255, 255, 240, 0.5);
 }
 
+
+
 .page-node-type-page .content, .page-header
 {
     padding: 0.9rem;
@@ -79,7 +81,7 @@ a:hover {
 }
 
 @media only screen and (min-width: 960px) {
-    .path-beelden .view-beelden .view-content {
+    .path-beelden .view-beelden .vi ew-content {
         display: flex;
         flex-direction: row;
     }
@@ -87,6 +89,12 @@ a:hover {
     .path-beelden .beelden-row {
         margin-right: 1rem;
         width: 33%;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .region-sidebar-first, .region-sidebar-second{
+        display: none;
     }
 }
 
