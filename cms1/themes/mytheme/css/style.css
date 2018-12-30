@@ -81,7 +81,7 @@ a:hover {
 }
 
 @media only screen and (min-width: 960px) {
-    .path-beelden .view-beelden .vi ew-content {
+    .path-beelden .view-beelden .view-content {
         display: flex;
         flex-direction: row;
     }
@@ -157,9 +157,9 @@ h1 {
 }
 
 p{
-    overflow: auto;
+    overflow: hidden;
 }
 
-img {
-    max-width: 90%;
+img, .field--type-image {
+    max-width: 95%;
 }
